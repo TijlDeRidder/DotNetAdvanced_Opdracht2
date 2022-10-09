@@ -33,6 +33,10 @@ namespace Oefening3
                 if (tb_Pound.Text.Length > 0)
                 {
                     tb_Dollar.Text = (Double.Parse(tb_Pound.Text) * 1.10865).ToString();
+                    tb_Euro.Text = "0";
+                    tb_Franken.Text = "0";
+                    tb_Yen.Text = "0";
+                    tb_rupees.Text = "0";
                 }
             }
         }
@@ -43,6 +47,10 @@ namespace Oefening3
                 if(tb_Euro.Text.Length > 0)
                 {
                     tb_Dollar.Text = (Double.Parse(tb_Euro.Text) * 0.9745).ToString();
+                    tb_Pound.Text = "0";
+                    tb_Franken.Text = "0";
+                    tb_Yen.Text = "0";
+                    tb_rupees.Text = "0";
                 }
             }
         }
@@ -54,6 +62,10 @@ namespace Oefening3
                 if (tb_Yen.Text.Length > 0)
                 {
                     tb_Dollar.Text = (Double.Parse(tb_Yen.Text) * 0.006879).ToString();
+                    tb_Euro.Text = "0";
+                    tb_Franken.Text = "0";
+                    tb_Pound.Text = "0";
+                    tb_rupees.Text = "0";
                 }
             }
         }
@@ -65,6 +77,10 @@ namespace Oefening3
                 if (tb_rupees.Text.Length > 0)
                 {
                     tb_Dollar.Text = (Double.Parse(tb_rupees.Text) * 0.012074).ToString();
+                    tb_Euro.Text = "0";
+                    tb_Franken.Text = "0";
+                    tb_Yen.Text = "0";
+                    tb_Pound.Text = "0";
                 }
             }
         }
@@ -76,6 +92,10 @@ namespace Oefening3
                 if (tb_Franken.Text.Length > 0)
                 {
                     tb_Dollar.Text = (Double.Parse(tb_Franken.Text) * 1.005252).ToString();
+                    tb_Euro.Text = "0";
+                    tb_Pound.Text = "0";
+                    tb_Yen.Text = "0";
+                    tb_rupees.Text = "0";
                 }
             }
         }
